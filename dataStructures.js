@@ -17,15 +17,15 @@ const day1 = {
 }
 
 // playing with methods and properties available on objects
-let anObject = {
+const anObject = {
   left: 1,
   right: 2,
   center: 0.5
 }
 
-console.log(anObject.left);
+console.log(anObject.left)
 delete anObject.left
-console.log(anObject);
-console.log("left" in anObject);
+console.log(anObject)
+console.log('left' in anObject)
 
-console.log(Object.keys(anObject));
+console.log(Object.keys(anObject))
