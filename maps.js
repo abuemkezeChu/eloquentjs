@@ -1,12 +1,5 @@
-// console.log(myMap);
-// const myObject = {}
+const myMap = new Map([[{}, 'firstObject'], [{}, 'secondObject']])
 
-
-const a = {
-  name: 'Chu'
-}
-const b = {}
-
-const myMap = new Map([[a, 'firstObject'], [b, 'secondObject']])
+myMap.set({}, ['true',false,false])
 
 console.log(myMap);
